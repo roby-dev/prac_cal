@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/txtTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿Cuántos juegos podré comprar?"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"/>
+
+        <EditText
+            android:id="@+id/txtP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:autofillHints="@string/p"
+            android:ems="10"
+            android:hint="@string/p"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/txtD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:autofillHints="@string/p"
+            android:ems="10"
+            android:hint="@string/d"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/txtM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:autofillHints="@string/p"
+            android:ems="10"
+            android:hint="@string/m"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/txtS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:autofillHints="@string/p"
+            android:ems="10"
+            android:hint="@string/s"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnVisualizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="VISUALIZAR"/>
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Práctica Calificada</string>
+    <string name="title_app">¿Cuantos juegos podré comprar?</string>
+    <string name="p">Precio (p)</string>
+    <string name="d">Descuento (d)</string>
+    <string name="m">Mínimo (m)</string>
+    <string name="s">Presupuesto (s)</string>
+
+</resources>
